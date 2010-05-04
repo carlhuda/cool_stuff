@@ -80,8 +80,23 @@ end
 
 task :gitignore do
   File.open(".gitignore", 'w') do |f|
+    f.puts ".bundle"
     PROJECTS.values.flatten.each do |name|
       f.puts name
+    end
+  end
+end
+
+desc "Make a Gemfile"
+task :gemfile do
+  File.open("Gemfile", "w") do |f|
+    f.puts "source 'http://rubygems.org'"
+    f.puts "path   '.'"
+    f.puts
+    PROJECTS.values.flatten.each do |name|
+      next if name =~ /^(dm|do|qunit|jquery|prototype|devise_example|rspec-dev|veritas|rails_upgrade)/
+
+      f.puts "gem '#{name}'"
     end
   end
 end
