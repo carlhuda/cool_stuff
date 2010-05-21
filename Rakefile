@@ -3,7 +3,8 @@ PROJECTS = {
   "rack"          => %w(rack rack-contrib),
   "rspec"         => %w(rspec-dev rspec-expectations rspec-mocks rspec-core rspec rspec-rails),
   "josh"          => %w(rack-mount),
-  "nex3"          => %w(haml compass),
+  "nex3"          => %w(haml),
+  "chriseppstein" => %w(compass),
   "joshbuddy"     => %w(usher),
   "carllerche"    => %w(astaire),
   "carlhuda"      => %w(beard bundler),
@@ -17,6 +18,7 @@ PROJECTS = {
   "plataformatec" => %w(simple_form devise responders mail_form devise_example),
   "rtomayko"      => %w(rack-cache),
   "mikel"         => %w(mail),
+  "lsegal"        => %w(yard),
   "datamapper" => %w(
     dm-transactions
     dm-migrations
