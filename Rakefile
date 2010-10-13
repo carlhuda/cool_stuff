@@ -25,8 +25,9 @@ PROJECTS = {
   "macournoyer"   => %w(thin),
   "igrigorik"     => %w(em-http-request),
   "evanphx"       => %w(rubinius),
-  "sproutcore"    => %w(abbot sproutcore sproutguides tutorials demos),
-  "ialexi"        => %w(hedwig)
+  "sproutcore"    => %w(abbot sproutcore demos),
+  "ialexi"        => %w(hedwig),
+  "wycats"        => %w(handlebars.js muse),
   "datamapper" => %w(
     dm-transactions
     dm-migrations
