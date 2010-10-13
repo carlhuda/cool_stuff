@@ -19,6 +19,8 @@ PROJECTS = {
   "rtomayko"      => %w(rack-cache),
   "mikel"         => %w(mail),
   "lsegal"        => %w(yard),
+  "kevwil"        => %w(aspen),
+  "brotherbard"   => %w(gitx),
   "datamapper" => %w(
     dm-transactions
     dm-migrations
