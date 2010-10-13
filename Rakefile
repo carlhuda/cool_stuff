@@ -21,6 +21,12 @@ PROJECTS = {
   "lsegal"        => %w(yard),
   "kevwil"        => %w(aspen),
   "brotherbard"   => %w(gitx),
+  "eventmachine"  => %w(eventmachine),
+  "macournoyer"   => %w(thin),
+  "igrigorik"     => %w(em-http-request),
+  "evanphx"       => %w(rubinius),
+  "sproutcore"    => %w(abbot sproutcore sproutguides tutorials demos),
+  "ialexi"        => %w(hedwig)
   "datamapper" => %w(
     dm-transactions
     dm-migrations
